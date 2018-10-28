@@ -1,11 +1,7 @@
 function strangeSum(a, b){
-  if(isNaN(a)||isNaN(b)){
+  if(!Number.isInteger(a)||!Number.isInteger(b)){
     return null;
-  }
-  if(a==b && (!isNaN(a)||!isNaN(b))){
+  }else if(a==b){
     return (a+b)*3;
-  }else if(a!=b && (!isNaN(a)||!isNaN(b)))
-  {
-    return a+b;
-  }
+  }else return a+b;
 }
