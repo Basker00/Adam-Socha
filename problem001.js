@@ -8,14 +8,4 @@ function triangleArea(a, b, c){
       return 0;
     }
   return -1;
-  
 }
-
-var a=0;
-var b=0;
-var c=0;
-a=parseInt(prompt("Podaj bok a:"));
-b=parseInt(prompt("Podaj bok b:"));
-c=parseInt(prompt("Podaj bok c:"));
-
-triangleArea(a, b, c);
