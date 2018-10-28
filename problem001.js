@@ -8,7 +8,7 @@ function triangleArea(a, b, c){
   if(a<=0 || b<=0 || c<=0){
     return -1; 
   }
-  vaar pole=0;
+  var pole=0;
   pole = (a+b+c)/2;
   var wynik=0;
   wynik = Math.round(wynik*100);
