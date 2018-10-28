@@ -1,5 +1,5 @@
 function findMax(){
-  var max=0;
+  var max=arguments[1];
   for(var i in arguments){
     if(max<arguments[i]){
       max=arguments[i];
