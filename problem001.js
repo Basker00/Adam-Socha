@@ -11,6 +11,7 @@ function triangleArea(a, b, c){
   var pole=0;
   pole = (a+b+c)/2;
   var wynik=0;
+  wynik = Math.sqrt(pole*(pole-a)*(pole-b)*(pole-c));
   wynik = Math.round(wynik*100);
   if(wynik<=0){
     return -1;
