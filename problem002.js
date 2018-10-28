@@ -13,10 +13,3 @@ function stringRotate(a, b) {
   }
   return '';
 }
-
-var b=0;
-var a="";
-a=prompt("Podaj dowolny łańcuch tekstowy: ")
-b=parseInt(prompt("Podaj wartość przesunięcia: "));
-
-console.log('Twój nowy łańcuch tekstowy: ' + stringRotate(a, b));
