@@ -8,9 +8,3 @@ function strangeSum(a, b){
   {
     return a+b;
   }
-  
-}
-var a=parseInt(prompt("Podaj liczbę a: "));
-var b=parseInt(prompt("Podaj liczbę b: "));
-
-console.log(strangeSum(a,b));
