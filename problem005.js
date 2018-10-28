@@ -8,3 +8,4 @@ function strangeSum(a, b){
   {
     return a+b;
   }
+}
