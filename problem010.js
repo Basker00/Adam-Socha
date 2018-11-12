@@ -3,5 +3,5 @@ function deepCopy(a){
 
   for (var i = 0; i < a.length; i++)
       newArray[i] = a[i];
-  return console.log(newArray);
+  return newArray;
 }
