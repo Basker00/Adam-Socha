@@ -4,13 +4,12 @@ function parametricSort(a, b){
     return this.sort( function (a,b) { return a-b; } );
     }
     a.sortNum();
-  }
-  if(b=="desc"){
+  }else if(b=="desc"){
     Array.prototype.sortNum = function() {
     return this.sort( function (a,b) { return a-b; } );
     }
     a.sortNum();
     a.reverse();
-  }
+  }else return false;
   return a;
 }
